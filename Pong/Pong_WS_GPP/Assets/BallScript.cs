@@ -26,7 +26,7 @@ public class BallScript : MonoBehaviour
         float randX = Random.Range(-1, 1);
         float randY = Random.Range(-1, 1);
         
-        rb2d.AddForce(new Vector2(500 * Mathf.Sign(randX), -75 * Mathf.Sign(randY)));
+        rb2d.AddForce(new Vector2(750 * Mathf.Sign(randX), 100 * Mathf.Sign(randY)));
       
     }
 
